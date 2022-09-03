@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
     res.send("Welcome to the homepage");
 })
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log('listening to port: 3000');
 });
