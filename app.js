@@ -6,6 +6,4 @@ app.get('/', (req, res) => {
     res.send("Welcome to the Express Application");
 })
 
-app.listen(port, () => {
-    console.log('listening to port: '+port);
-});
+app.listen(port, () => {});
